@@ -8,6 +8,86 @@
    <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
+   <header class="container header">
+      <a class="header__link" href="#"><img header__link__img src="./img/logo-desktop.png" alt=""></a>
+      <ul class="nav">
+         <li class="nav__item"><a href="" class="nav__item__link">Pricing</a></li>
+         <li class="nav__item"><a href="" class="nav__item__link">About</a></li>
+         <li class="nav__item"><a href="" class="nav__item__link">Contact</a></li>
+      </ul>
+
+      <button type="submit" class="header__button">Schedule a Demo</button>
+
+   </header>
+   <main>
+      <section class="container text">
+         <h2 class="text__title">Submit a help request 
+            and we’ll get in touch shortly.</h2>
+          
+      </section>
+      <section class="container jadval">
+         <form class="form" action="http:://localhost/index.php" method="post">
+            <input class="form__name" name="name" type="text" placeholder="Name">
+            <input class="form__email " name="email" type="email" placeholder="Email Address">
+            <input class="form__company" name="company" type="text" placeholder="Company Name">
+            <input class="form__title" name="title" type="text" placeholder="Title">
+            <textarea class="form__message" name="message" id="" cols="30" rows="10" placeholder="Message"></textarea>
+
+            <label class="form__label" >
+               <input class="form__check" type="checkbox">
+               <!-- <span class="form__span"></span> -->
+               Stay up-to-date with company announcements and updates to our API
+            </label>
+
+            <button class="form__button" type="submit">Submit</button>
+         </form>
+      </section>
+      <section class="container brand">
+         <div class="brand__text">
+            <h2 class="brand__text__title">Join thousands of innovators already building with us</h2>
+
+         </div>
+         <div class="brand__imgone">
+            <a class="brand__imgone__link" href="#"><img class="brand__imgone__link__img" src="./img/tesla.png" alt=""></a>
+            <a class="brand__imgone__link" href="#"><img class="brand__imgone__link__img" src="./img/micr.png" alt=""></a>
+            <a class="brand__imgone__link" href="#"><img class="brand__imgone__link__img" src="./img/hp.png" alt=""></a>
+
+         </div>
+         <div class="brand__imgtwo">
+            <a class="brand__imgtwo__link" href="#"><img class="brand__imgtwo__link__img" src="./img/oracle.png" alt=""></a>
+            <a class="brand__imgtwo__link" href="#"><img class="brand__imgtwo__link__img" src="./img/google.png" alt=""></a>
+            <a class="brand__imgtwo__link" href="#"><img class="brand__imgtwo__link__img" src="./img/nvd.png" alt=""></a>
+
+         </div>
+
+
+      </section>
+      <section class="container ready">
+         <div class="ready__text">
+            <h2 class="ready__text__title">Ready to start?</h2>
+         </div>
+         <form class="ready__form" action="http:://localhost/index.php" method="post">
+            <input class="ready__form__email" type="email" placeholder="Enter email address">
+            <button class="ready__form__button" type="submit">Schedule a Demo</button>
+         </form>
+
+      </section>
+   </main>
+   <footer class="container footer">
+      <a class="footer__link" href="#"><img class="footer__link__img" src="./img/footer-logo.png" alt=""></a>
+      <ul class="foot">
+         <li class="foot__item"><a href="#" class="foot__item__link">Pricing</a></li>
+         <li class="foot__item"><a href="#" class="foot__item__link">About</a></li>
+         <li class="foot__item"><a href="#" class="foot__item__link">Contact</a></li>
+      </ul>
+      <div class="footer__icon">
+         <a class="footer__icon__link" href="#"><img class="footer__icon__link__img" src="./img/face.svg" alt=""></a>
+         <a class="footer__icon__link" href="#"><img class="footer__icon__link__img" src="./img/twit.svg" alt=""></a>
+         <a class="footer__icon__link" href="#"><img class="footer__icon__link__img" src="./img/lin.svg" alt=""></a>
+
+      </div>
+
+   </footer>
    
 </body>
 </html>

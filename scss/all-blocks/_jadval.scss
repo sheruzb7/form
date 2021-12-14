@@ -1,0 +1,80 @@
+.jadval{
+   width: 100%;
+   height: 550px;
+   .form{
+      width: 500px;
+      display: flex;
+      flex-direction: column;
+      margin-left: auto;
+      margin-right: auto;
+      &__name{
+         background-color: transparent;
+         padding: 15px 0;
+         padding-left: 15px;
+         border: none;
+         border-bottom: 1px solid #36536B;
+         &:focus{
+            outline: none;
+         }
+      }
+      &__email{
+         background-color: transparent;
+         padding: 15px 0;
+         padding-left: 15px;
+         border: none;
+         border-bottom: 1px solid #36536B;
+         &:focus{
+            outline: none;
+         }
+
+      }
+      &__company{
+         background-color: transparent;
+         padding: 15px 0;
+         padding-left: 15px;
+         border: none;
+         border-bottom: 1px solid #36536B;
+         &:focus{
+            outline: none;
+         }
+      }
+      &__title{
+         background-color: transparent;
+         padding: 15px 0;
+         padding-left: 15px;
+         border: none;
+         border-bottom: 1px solid #36536B;
+         &:focus{
+            outline: none;
+         }
+      }
+      &__message{
+         background-color: transparent;
+         border: none;
+         padding-top: 15px;
+         padding-left: 15px;
+         border-bottom: 1px solid #36536B;
+         &:focus{
+            outline: none;
+         }
+      }
+      &__label{
+         display: flex;
+         align-items: center;
+         padding: 20px 0;
+         
+         font-style: normal;
+         font-weight: normal;
+         font-size: 15px;
+         line-height: 25px;
+         
+      }
+      &__button{
+         width: 200px;
+         height: 50px;
+         background-color: transparent;
+         border: 1px solid #36536B;
+         border-radius: 20px;
+      }
+   }
+}
